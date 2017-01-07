@@ -31,6 +31,12 @@ public class Sprite extends Drawable implements willAttack{
 	
 	private boolean isAttacking = false;
 	
+	// D_x = v_i * t + (1/2 * (a_x) * (t^2))
+	// D_y = v_i * t + (1/2 * (a_y - g) * (t^2))
+	
+	private int mass = 10;
+	
+	
 	protected int maxHealth = 100;
 	protected int maxMana = 100;
 	private int health = 100;

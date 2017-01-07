@@ -16,6 +16,7 @@ import java.awt.image.BufferedImage;
 import java.util.Comparator;
 
 public class Drawable implements Comparable<Drawable>{
+	public final double gravity = 9.8;
 	private int topHitBox = 0;
 	private int botHitBox = 0;	
 	private int leftHitBox = 0;

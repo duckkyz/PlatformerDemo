@@ -22,7 +22,6 @@ public class Game {
 	private int spawnCounter = 0;
 	private boolean debugText = false;
 	private static boolean isTitleScreen = false;
-	private int tempArrowCount;
 	private int regainCounter = 0;
 	private int powerUpCounter = 0;
 	
